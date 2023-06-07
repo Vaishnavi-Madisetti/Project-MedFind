@@ -1,0 +1,63 @@
+<%- include("header") -%> 
+  <!--Carousel Section-->
+  <section class="colored-section" id="testimonials">
+    <div class="row">
+      <div class="col">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+    
+            <div class="carousel-item active">
+              <img class="img" src="images/pic1.png" alt="pic1">
+              <br>
+              <em class="testimonial-text2">Takato Nichijou</em>
+              <br>
+              <h2 class="testimonial-text">I no longer have to run in circles searching for medicines.</h2>
+            </div>
+    
+            <div class="carousel-item">
+              <img class="img" src="images/pic2.png" alt="pic2">
+              <br>
+              <em class="testimonial-text2">Beverly Illinois</em>
+              <br>
+              <h2 class="testimonial-text">My knees no longer hurt when i go out for buying medicines.</h2>
+            </div>
+    
+            <div class="carousel-item">
+              <img class="img" src="images/pic3.png" alt="pic3">
+              <br>
+              <em class="testimonial-text2">Lucy Heartfilia</em>
+              <br>
+              <h2 class="testimonial-text">No longer do i have to worry when my child falls ill and we runout of medicines.</h2>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="col" id="map" style="border: #52616B solid 0.1rem;">
+        <!--Map Section-->
+        <div class="bottom"></div>
+        <!-- this div will hold your store info -->
+        <div id="info_div"></div>
+        <div class="demo">
+        
+        </div>
+              
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIHSbletnovE_VIfPLZXcuZbatlSxtKsI&callback=getLocation" async defer></script>
+      </div>
+      
+  </section>
+  
+
+  <%- include("footer") -%> 

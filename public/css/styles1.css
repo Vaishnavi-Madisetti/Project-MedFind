@@ -1,0 +1,55 @@
+/* Navigation Bar */
+.navbar{
+  padding-top: 0rem;
+}
+.navbar-brand{
+  color: #F0F5F9;
+  font-size: 2rem;
+  font-family: 'Titillium Web', sans-serif;
+}
+.navbar-brand:hover{
+  color: #c2ddf3;
+}
+.na{
+  padding: 1% 0 1% 0;
+  background-color: #52616B;
+}
+.btn{
+  color: #F0F5F9;
+}
+
+.DivToScroll{   
+  background-color: #F5F5F5;
+  border: 1px solid #DDDDDD;
+  border-radius: 4px 0 4px 0;
+  color: #3B3C3E;
+  font-size: 12px;
+  font-weight: bold;
+  left: -1px;
+  padding: 10px 7px 5px;
+}
+
+.DivWithScroll{
+  height:120px;
+  overflow:scroll;
+  overflow-x:hidden;
+}
+
+
+
+/* Carousel Section */
+.carousel-item{
+  padding: 25% 5% 25% 5%;
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+}
+.colored-section{
+  background-color: #F0F5F9;
+}
+.img{
+  height: 10rem;
+  margin: 0 0 1rem 0;
+}
+.testimonial-text{
+  padding: 2rem 0 0 0;
+}

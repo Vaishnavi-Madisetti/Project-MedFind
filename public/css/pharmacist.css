@@ -1,0 +1,121 @@
+body
+{
+  background-color:#F0F5F9;
+  
+}
+.navtitle
+{
+  color:#F0F5F9;
+  text-align: center;
+  font-size:2.5rem;
+text-align: center;
+position: relative;
+bottom: 5px;
+  
+ 
+}
+.welcome
+{
+ 
+  background-color: #F0F5F9;
+}
+.welcometitle
+{
+  background-color: #F0F5F9;
+  border-color: black;
+ color: #52616B;
+}
+.navtitle:hover{
+  color:black;
+  text-decoration: none;
+}
+.navbar
+{
+  height: 70px;
+  
+   margin-top: 70px;
+   margin-bottom: 0;
+   border-style: solid;
+   border-width: 1.5px;
+  
+  
+ background-color: #52616B;
+}
+.opennowtext
+{
+  font-size: 1.5rem;
+}
+.opentick
+{
+  
+  position: relative;
+  margin-left:10px;
+ width:18px;
+ height:18px;
+ display: inline;
+ float: right;
+ right: 2px;
+ bottom: -10px;
+ 
+}
+.tick-items
+{
+  float:right;
+}
+
+.medicineinfo
+{
+  margin-top:50px;
+  margin-left: 0;
+  
+}
+.card
+{
+  margin-bottom: 10px;
+}
+.available-tick
+{
+  margin-left:18px;
+}
+.card{
+  background-color: #F0F5F9;
+}
+.sidebar
+{
+  padding-top: 50px;
+  margin-bottom: 0;
+       
+ margin-right: 0;
+  height: 500px;
+  border-style: solid;
+  border-width: 0 1px 0 0;
+  /* border-right: 1px; */
+}
+.searchbox
+{
+  
+  width:20%;
+  margin: 5px;
+}
+.searchbar
+{
+  border-style: solid;
+  background-color: #F0F5F9;
+ border-width: 0.5px;
+  border-color:#52616B;
+}
+.daytick
+{
+  position:relative;
+  display: inline;
+  float:right;
+  right: 5px;
+}
+.submit
+{
+ 
+  position: relative;
+  
+  left: 315px;
+  width:20%;
+}
